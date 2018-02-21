@@ -4,14 +4,25 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class TextController : MonoBehaviour {
-
+	public Image image; 
+	public Sprite warningImage; //Drag your first sprite here in inspector.
+	public Sprite introImage; //Drag your second sprite here in inspector.
+	public Sprite gameoverImage; //Drag your first sprite here in inspector.
+	public Sprite begImage; //Drag your second sprite here in inspector.
+	public Sprite windowImage; //Drag your first sprite here in inspector.
+	public Sprite trapdoorImage; //Drag your second sprite here in inspector.
+	public Sprite lolImage; //Drag your first sprite here in inspector.
+	public Sprite freedomImage; //Drag your second sprite here in inspector.
+	public Sprite ventImage; //Drag your second sprite here in inspector.
+	public Sprite changeImage; //Drag your first sprite here in inspector.
+	public Sprite endImage; //Drag your second sprite here in inspector.
 	public Text text;
 	private enum States {warning, intro, gameover, beg, window, trapdoor, lol, freedom, vent, end, change};
 	// Use this for initialization
 	private States myState;
 	void Start () {
 		myState = States.warning;
-	}
+			}
 	
 	// Update is called once per frame
 	void Update () {
@@ -41,6 +52,7 @@ public class TextController : MonoBehaviour {
 		}
 	}
 	void state_warning () {
+		image.sprite = warningImage;
 		text.text = "Wow your actually going to read this. "+
 			"You should stop while you can, please stop it's not worth the time. "
 			+"Seems like your really might  to read this, don't blame me for "+
@@ -55,6 +67,7 @@ public class TextController : MonoBehaviour {
 		}
 }
 			void state_gameover () {
+		image.sprite = gameoverImage;
 				text.text = "Wow, you're really smart! "+
 					"Sadly this is the end of your story though. "
 					+"We really hope you've enjoyed your play session! "+
@@ -65,6 +78,7 @@ public class TextController : MonoBehaviour {
 				}
 			}
 	void state_intro () {
+		image.sprite = introImage;
 		text.text = "Wow your actually going to read this. "+
 			"You should stop while you can, please stop it's not worth the time. "
 			+"Seems like your really might  to read this, don't blame me for"+
@@ -75,6 +89,7 @@ public class TextController : MonoBehaviour {
 		}
 }
 	void state_change () {
+		image.sprite = changeImage;
 		text.text = "There once was a person who thought there was different storys. "+
 			"When they chose to change the story, the screen changed to a different story. "
 			+"But little did they know that they were tricked. "+
@@ -85,6 +100,7 @@ public class TextController : MonoBehaviour {
 		}
 	}
 	void state_beg () {
+		image.sprite = begImage;
 		text.text = "There once was a person who was arrested for playing a bad game. "+
 			"Oh wait, that's who you play as in this game. "
 			+"You are trapped in a badly made brick walled cell. High on the wall is a barred window, below the bed is a trap door. "+
@@ -99,6 +115,7 @@ public class TextController : MonoBehaviour {
 		}
 	}
 	void state_window () {
+		image.sprite = windowImage;
 		text.text = "You notice that the wall may be climbable. "+
 			"Instincivly you stick out your and grab onto the highest reachable brick. "
 			+"Slowly you put one foot on a brick and start the climb. "+
@@ -113,6 +130,7 @@ public class TextController : MonoBehaviour {
 		}
 	}
 	void state_lol () {
+		image.sprite = lolImage;
 		text.text = "You Won! Some how cheated death and are still alive! "+
 			"Sadly for you though, you broke your spine and is now permamently paralized. "
 			+"When the prison guard finds you later, decides to pick you up "+
@@ -127,6 +145,7 @@ public class TextController : MonoBehaviour {
 		}
 	}
 	void state_trapdoor () {
+		image.sprite = trapdoorImage;
 		text.text = "You notice a trap door lies below your bed. "+
 			"Instincivly you stick foot and push the bed aside with it. "
 			+"You bend over and grab the handle of the trapdoor. "+
@@ -139,6 +158,7 @@ public class TextController : MonoBehaviour {
 		}
 	}
 	void state_vent () {
+		image.sprite = ventImage;
 		text.text = "As you continue descending through the passageway. "+
 			"You start to feel very cold and decide that you are in a vent. "
 			+"With a sense of urgency you rush to wear the cold is coming from. "+
@@ -151,6 +171,7 @@ public class TextController : MonoBehaviour {
 		}
 	}
 	void state_freedom () {
+		image.sprite = freedomImage;
 		text.text = "You charge at the wall with all of your might. "+
 			"The wall starts to shake so you try again. "
 			+"BOOM! The wall breaks open and you go rolling into cold snow! "+
@@ -163,6 +184,7 @@ public class TextController : MonoBehaviour {
 		}
 	}
 	void state_end () {
+		image.sprite = endImage;
 		text.text = "You Won! "+
 			"Sadly for you though, you broke you died of hypothermia in the snow. "
 			+"At least you made it out of the prison though! "+
