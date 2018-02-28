@@ -585,15 +585,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 1289196021}
-  warningImage: {fileID: 21300000, guid: 11d3e0fe35651764eb8a597d2d206de9, type: 3}
-  introImage: {fileID: 21300000, guid: b68cd4975d609234aacf9251d7797f5c, type: 3}
-  gameoverImage: {fileID: 21300000, guid: 538099d0816aba045b277304b2f7151f, type: 3}
-  begImage: {fileID: 21300000, guid: 97a2ec355403ded40803ed972f9b4f6f, type: 3}
-  windowImage: {fileID: 21300000, guid: 11703af481700c045acbace89c700ea8, type: 3}
-  trapdoorImage: {fileID: 21300000, guid: 06c3c012d1b0f04439045be85121840b, type: 3}
-  lolImage: {fileID: 21300000, guid: a98ee722ebd52e0408cb91be58c222bd, type: 3}
-  freedomImage: {fileID: 21300000, guid: 2bd65fbd7cbc9dd4c8948047cf9dce5e, type: 3}
-  ventImage: {fileID: 21300000, guid: dd282b2b76147b4469e830b4dca35667, type: 3}
-  changeImage: {fileID: 21300000, guid: bc9e80756a5fad24dbb38b3a7b30c0a0, type: 3}
-  endImage: {fileID: 21300000, guid: a7362cb8637f6f34cb8ebb4934301e70, type: 3}
+  warningImage: {fileID: 21300000, guid: c5c26165de4fd0341881f56606446e21, type: 3}
+  introImage: {fileID: 21300000, guid: ae8944648e71ea94ebdd63ae6ece7c60, type: 3}
+  gameoverImage: {fileID: 21300000, guid: 46f5fc20ec6d01845983e7fa71c2eeda, type: 3}
+  begImage: {fileID: 21300000, guid: e845b2c054ec28845879c86e726c117c, type: 3}
+  windowImage: {fileID: 21300000, guid: 82ae8a7b8ddf0c14fa5d36f3690c4d2d, type: 3}
+  trapdoorImage: {fileID: 21300000, guid: 10add918bcc8d934ca7dff7e2e1f65a2, type: 3}
+  lolImage: {fileID: 21300000, guid: 477d68f00cccbf04ca9399c97a448e1b, type: 3}
+  freedomImage: {fileID: 21300000, guid: ce4897e8782fc1e4cbb831b6075b6d28, type: 3}
+  ventImage: {fileID: 21300000, guid: e7bad902ee25dbb45b07a1c8a7df6238, type: 3}
+  changeImage: {fileID: 21300000, guid: 60f84acd76ffaaa4b8c94f7531f38949, type: 3}
+  endImage: {fileID: 21300000, guid: e4f25e4c1c34d0542b1114fc32f06a0f, type: 3}
   text: {fileID: 1974421665}
