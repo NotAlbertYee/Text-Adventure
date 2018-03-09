@@ -1,10 +1,23 @@
 fileFormatVersion: 2
 guid: a8f5a0e2af3c13f41bb8090e095cb375
-timeCreated: 1518574209
+timeCreated: 1520391587
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - image: {instanceID: 0}
+  - warningImage: {instanceID: 0}
+  - introImage: {instanceID: 0}
+  - gameoverImage: {instanceID: 0}
+  - begImage: {fileID: 21300000, guid: e845b2c054ec28845879c86e726c117c, type: 3}
+  - windowImage: {instanceID: 0}
+  - trapdoorImage: {instanceID: 0}
+  - lolImage: {instanceID: 0}
+  - freedomImage: {instanceID: 0}
+  - ventImage: {instanceID: 0}
+  - changeImage: {fileID: 21300000, guid: 60f84acd76ffaaa4b8c94f7531f38949, type: 3}
+  - endImage: {instanceID: 0}
+  - text: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
